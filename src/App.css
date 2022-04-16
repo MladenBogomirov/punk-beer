@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@500;800&family=Playfair+Display:ital,wght@1,800&display=swap');
+/*font-family: 'Anek Odia', sans-serif;*/
+/*font-family: 'Playfair Display', serif;*/
+/* Main Black Color = #21325E */
+/* Navy Color = #3E497A */
+/* Yellow Color = #F1D00A */
+/* Grey Color = #F0F0F0 */
+html {
+  font-size: 10px;
+}
+
+body {
+  height: 100vh;
+  background-color: #F0F0F0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Anek Odia', sans-serif;
+  font-size: 1.4rem;
+  color: #21325E;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
+}

@@ -1,0 +1,14 @@
+.button {
+  border: none;
+  background: none;
+}
+
+.button--link {
+  color: #21325E;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.button--link:hover {
+  color: rgba(33, 50, 94, .5);
+}
