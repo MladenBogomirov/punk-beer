@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@500;800&family=Playfair+Display:ital,wght@1,800&display=swap');
-/*font-family: 'Anek Odia', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@200;400;800&family=Playfair+Display:ital,wght@1,800&display=swap');
+/*font-family: 'Anek Odia', sans-serif;*
 /*font-family: 'Playfair Display', serif;*/
 /* Main Black Color = #21325E */
 /* Navy Color = #3E497A */
@@ -11,7 +11,7 @@ html {
 
 body {
   height: 100vh;
-  background-color: #F0F0F0;
+  background-color: #3E497A;
 }
 
 * {
