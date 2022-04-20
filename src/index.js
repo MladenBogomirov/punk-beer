@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import Favorites from './Routes/favorites';
 import reportWebVitals from './reportWebVitals';
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Favorites from './Routes/favorites';
+
+import App from './App';
 import Beer from './Components/Beer/Beer';
 import Beers from './Routes/beers';
 import { ErrorPage } from './Components/ErrorPage/ErrorPage';
+
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
