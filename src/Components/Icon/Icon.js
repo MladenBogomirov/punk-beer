@@ -1,11 +1,12 @@
+import { useState } from 'react';
+
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import FavoriteOutlinedIcon from '@mui/icons-material/FavoriteOutlined';
-import { useState } from 'react';
-import styles from './Icon.module.css';
+
 import 'animate.css';
+import styles from './Icon.module.css';
 
 const Icon = ({ className, onIconClick, isBeerLiked }) => {
-  // Every Icon in the app is being rendered after a click
   const [isLiked, setIsLiked] = useState(isBeerLiked || false);
   const [animation, setAnimation] = useState('');
   const iconClickHandler = (event) => {

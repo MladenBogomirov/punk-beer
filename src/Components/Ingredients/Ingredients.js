@@ -1,4 +1,5 @@
 import { renderIngredients } from './renderIngredients';
+
 import styles from './Ingredients.module.css';
 
 const Ingredients = ({ ingredientType, ingredientsList }) => {

@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom';
 import useSound from 'use-sound';
-import canOpenSound from '../../Sounds/Open_Can.mp3';
+
 import Card from '../Card/Card';
+
+import canOpenSound from '../../Sounds/Open_Can.mp3';
+
 import styles from './BeerList.module.css';
 
 const BeerList = ({ beers, onBeerLike = undefined }) => {

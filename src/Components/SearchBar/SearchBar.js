@@ -1,4 +1,5 @@
 import Button from '../Button/Button';
+
 import styles from './SearchBar.module.css';
 
 const SearchBar = ({ onFilterQueryChange, onRandomButtonClick }) => {

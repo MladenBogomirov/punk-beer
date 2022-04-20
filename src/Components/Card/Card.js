@@ -1,5 +1,7 @@
 import Icon from '../Icon/Icon';
+
 import styles from './Card.module.css';
+
 import defaultBeerImage from '../../Images/beer.png';
 
 const Card = ({ beer, onIconToggle, shouldDisplayIcon }) => {

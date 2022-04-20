@@ -1,6 +1,8 @@
 import Ingredients from '../Ingredients/Ingredients';
-import styles from './Beer.module.css';
 import { BeerColor } from './BeerColor';
+
+import styles from './Beer.module.css';
+
 import defaultBeerImage from '../../Images/beer.png';
 
 const Beer = ({ beerData }) => {

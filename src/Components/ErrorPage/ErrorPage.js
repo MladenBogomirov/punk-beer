@@ -1,4 +1,5 @@
 import styles from './ErrorPage.module.css';
+
 import warningimage from '../../Images/warning.png';
 
 export const ErrorPage = () => {
