@@ -1,0 +1,19 @@
+.error-page__wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-page__details {
+  text-align: center;
+}
+
+.error-page__image {
+  max-width: 30rem;
+}
+
+.error-page__text {
+  font-size: 3rem;
+  color: #F0F0F0;
+}

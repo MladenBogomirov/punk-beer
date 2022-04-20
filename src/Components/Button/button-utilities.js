@@ -3,8 +3,10 @@ export const determineButtonType = (type) =>
 
 export const determineButtonStyleClass = (type) => {
   switch (true) {
-    case type === 'link':
-      return 'button--link';
+    case type === 'route':
+      return 'button--route';
+    case type === 'basic':
+      return 'button--basic';
     default:
       return '';
   }

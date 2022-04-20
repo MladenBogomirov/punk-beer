@@ -1,0 +1,35 @@
+.card {
+  background-color: #F0F0F0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  transition: all .3s;
+  height: 100%;
+}
+
+.card:hover {
+  transform: scale(.98);
+}
+
+.card__image {
+  max-width: 5rem;
+  height: fit-content;
+  margin: auto;
+}
+
+.card__headding {
+  background: #F1D00A;
+  width: 100%;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.card__tagline {
+  font-weight: 600;
+  margin-top: auto;
+  padding-top: 2rem;
+  width: 100%;
+}

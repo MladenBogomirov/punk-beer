@@ -1,0 +1,12 @@
+.ingredients {
+  margin-left: 2rem;
+}
+
+.ingredients__name {
+  font-weight: 800;
+}
+
+.ingredients__list,
+.ingredients__list-item {
+ display: inline;
+}

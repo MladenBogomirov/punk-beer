@@ -1,0 +1,27 @@
+.beer-list {
+  width: 80vw;
+  margin: 5rem auto;
+  display: grid;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.beer-list--fill {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /* This is better for small screens, once min() is better supported */
+  /* grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); */
+}
+
+.beer-list--fit {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
+  /* This is better for small screens, once min() is better supported */
+  /* grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); */
+}
+
+.beer-list--no-match {
+  margin-top: 5rem;
+  text-align: center;
+  color: #F0F0F0;
+  font-size: 3rem;
+  font-weight: 800;
+}

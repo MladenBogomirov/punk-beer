@@ -1,0 +1,14 @@
+.card__icon-wrapper {
+  position: absolute;
+  right: 1rem;
+  top: 5.5rem;
+  transition: all .3s;
+}
+
+.card__icon-wrapper:hover {
+  transform: scale(1.2);
+}
+
+.card__icon-wrapper > svg > path {
+  color: #D50000;
+}
