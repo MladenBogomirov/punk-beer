@@ -4,7 +4,7 @@ import Button from '../Button/Button';
 
 import styles from './Header.module.css';
 
-const Header = ({ likedBeers }) => {
+const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles['header__wrapper']}>
