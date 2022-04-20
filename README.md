@@ -35,6 +35,8 @@ Users, also have the ability to like beers, which for ease, are stored in the br
 
 - Implement like buttons in "Favorites" page so the user can remove entities
 
+-Implement a Loader component
+
 Resources used:
 
 - <https://colorhunt.co/palette/21325e3e497af1d00af0f0f0>
